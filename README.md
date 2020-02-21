@@ -13,6 +13,7 @@ pip install -r requirements.txt
 ACCESS_TOKEN = "EAABrZB7EkKR0iTxwU5kPUZANpLS3ZAGFcgzvkd7mn67lajaxZAtW6"
 VERIFY_TOKEN = "MeSSenGERTEST1NGT0KEN"
 
-де ACCESS_TOKEN замінюємо на свій із https://developers.facebook.com/apps/<APP ID>/messenger/settings/ в Access Tokens,
+де ACCESS_TOKEN замінюємо на свій із https://developers.facebook.com/apps/YOUR_APP_ID/messenger/settings/ в Access Tokens,
 VERIFY_TOKEN - генеруємо самі, використовуємо в п4.
-4. На сторінці https://developers.facebook.com/apps/<APP ID>/messenger/settings/ в Webhooks добавити/виправити (при необхідності): Callback URL - <ssl_url>``` - посилання з логу Ngrok, Verify Token - із tokenfile.py
+Не забудь змінити YOUR_APP_ID на свій!
+4. На сторінці https://developers.facebook.com/apps/YOUR_APP_ID/messenger/settings/ в Webhooks добавити/виправити (при необхідності): Callback URL - <ssl_url>``` - посилання з логу Ngrok, Verify Token - із tokenfile.py
